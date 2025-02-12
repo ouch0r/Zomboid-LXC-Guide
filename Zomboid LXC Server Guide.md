@@ -1,5 +1,8 @@
 # Guide: Zomboid on LXC
 
+>[!NOTE]
+>I wrote this in early 2024. Haven`t had a look at Zomboid since then
+
 So you got a machine which is running Linux Containers and you want to host a Zomboid Server?
   
 While trying setting up a server following the offical guide from the pzwiki I ran into some hiccups here and there. Here's a much simpler and easier to follow step by step solution.  
