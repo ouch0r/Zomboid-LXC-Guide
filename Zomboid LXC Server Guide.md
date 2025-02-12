@@ -13,6 +13,7 @@ First set up a fresh isolated Linux system. You can find guides for that on the 
 
 ### Fresh LXC
 
+
 Fresh machine set up and ready to go?
 
 login as
@@ -27,6 +28,7 @@ yourpasswordyouchosewhilesettingupthismachine
 ```
 apt update && apt dist-upgrade y
 ```
+
 ### Set timezone and reboot
 
 ```
@@ -38,6 +40,7 @@ reboot
  
 >[!NOTE]
 >This will get us anything we need to install the server  
+
   
 ```
 apt install software-properties-common
@@ -51,7 +54,9 @@ apt install steamcmd
 >[!WARNING]
 >**Don't run steamcmd as the root user!!**
 
+
 ### Create new user + navigation
+
 
 Create zomboid user
 
