@@ -7,6 +7,7 @@ So you got a machine which is running Linux Containers and you want to host a Zo
   
 While trying setting up a server following the offical guide from the pzwiki I ran into some hiccups here and there.
 Here's a much simpler and easier to follow step by step solution.  
+
 I can now set up zomboid servers on as many linux containers I want to! Yeah!  
 I am a linux noob myself so beware! I might not be able to help if you got any questions...  
   
