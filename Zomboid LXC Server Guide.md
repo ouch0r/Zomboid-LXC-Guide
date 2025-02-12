@@ -1,4 +1,4 @@
-### Intro 
+# Intro 
 
 So you got a machine which is running Linux Containers and you want to host a Zomboid Server?
   
