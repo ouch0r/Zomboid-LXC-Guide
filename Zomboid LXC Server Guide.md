@@ -1,5 +1,5 @@
-#Server #Gaming #Linux
 ### Intro 
+
 So you got a machine which is running Linux Containers and you want to host a Zomboid Server?
   
 While trying setting up a server following the offical guide from the pzwiki I ran into some hiccups here and there. Here's a much simpler and easier to follow step by step solution.  
@@ -10,7 +10,7 @@ First set up a fresh isolated Linux system. You can find guides for that on the 
 
 ### Fresh LXC
 
-Fresh machine set up and ready to go
+Fresh machine set up and ready to go?
 
 login as
 
@@ -21,14 +21,10 @@ yourpasswordyouchosewhilesettingupthismachine
 
 ### Update all containers
 
-Update all containers
-
 ```
 apt update && apt dist-upgrade y
 ```
 ### Set timezone and reboot
-
-Set time and reboot  
 
 ```
 dpkg-reconfigure tzdata
@@ -36,9 +32,7 @@ reboot
 ```
 
 ### Install dependencies 
-
-Install dependencies
-  
+ 
 >[!NOTE]
 >This will get us anything we need to install the server  
   
@@ -84,8 +78,6 @@ cd pzserver
 ```
 ### Run steamcmd / Install server
 
-Run steamcmd
-  
 >[!CAUTION] 
 >Make sure you're logged in as the zomboid user!  
 
