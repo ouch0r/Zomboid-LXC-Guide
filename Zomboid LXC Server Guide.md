@@ -39,7 +39,7 @@ reboot
 
 Install dependencies
   
->[!info]
+>[!NOTE]
 >This will get us anything we need to install the server  
   
 ```
@@ -51,7 +51,7 @@ apt install lib32gcc-s1
 apt install steamcmd
 ```
   
->[!Danger]
+>[!WARNING]
 >**Don't run steamcmd as the root user!!**
 
 ### Create new user + navigation
@@ -86,7 +86,7 @@ cd pzserver
 
 Run steamcmd
   
->[!caution] 
+>[!CAUTION] 
 >Make sure you're logged in as the zomboid user!  
 
 ```
@@ -126,7 +126,7 @@ nano servertest.ini
 
 Everything should be working now!
   
->[!Keep this in mind]
+>[!TIP]
 >Remember to forward ports in your firewall to your LXC. 
 >Use nano to edit your *.ini and/or *.lua files to your liking.
 
